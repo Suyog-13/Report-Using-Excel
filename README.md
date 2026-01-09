@@ -1,141 +1,69 @@
-# Report-Using-Excel
-📁 Project Overview
+# Vrinda Store Sales Analysis Dashboard 📊
 
-The goal of this project is to analyze Vrinda Store’s sales and order data using Excel and build a clean, interactive dashboard that allows the user to filter insights by:
+## 📁 Project Overview
+This project involves a comprehensive analysis of **Vrinda Store's sales data** to identify trends, customer behavior, and growth opportunities. Using Microsoft Excel, I processed raw transaction data to build an interactive dashboard that enables data-driven decision-making.
 
-Months
+### 🎯 Key Business Questions Addressed:
+* Which months performed the best in terms of sales and order volume?
+* Which sales channel contributes the most to the business?
+* How do customer demographics (Age & Gender) impact purchasing patterns?
+* Which states are the top revenue generators?
+* What is the overall order fulfillment status (Returns vs. Cancellations)?
 
-Sales Channels
+---
 
-Product Categories
+## 🛠️ Tools & Techniques Used
+* **Data Cleaning:** Removing duplicates, handling missing values, and standardizing data formats.
+* **Data Processing:** Creating new columns (Age Groups, Month extraction) using Excel formulas.
+* **Pivot Tables:** Summarizing large datasets for quick insights.
+* **Data Visualization:** Creating Pivot Charts and custom formatting.
+* **Dashboard Design:** Using **Slicers** to create a dynamic, interactive user experience.
 
-States
+---
 
-Customer Age & Gender Segments
+## 🚀 Key Insights
+* **Top Segment:** Women are the primary customers, contributing **64%** of total sales.
+* **Leading Channel:** **Amazon** is the highest-performing sales channel.
+* **Geographic Focus:** **Maharashtra** is the top-performing state in terms of revenue.
+* **Success Rate:** Approximately **92%** of orders are successfully delivered.
+* **Seasonality:** Sales peak significantly during **March and April**.
 
-This dashboard answers key business questions such as:
+---
 
-Which months performed the best in sales?
+## 📊 Dashboard Preview
+The dashboard allows users to filter data by **Month, Channel, and Category** to see real-time updates across all charts.
 
-Which channel contributed the most to orders?
 
-What is the gender-wise distribution of sales?
 
-Which states achieved the highest sales?
+### **Visualizations Breakdown:**
+* **Orders vs. Sales:** A combination chart showing monthly revenue trends.
+* **Gender Distribution:** A pie chart highlighting the sales split between Men and Women.
+* **Order Status:** A breakdown of Delivered vs. Cancelled/Returned orders.
+* **Top 5 States:** A bar chart ranking the highest revenue-generating states.
+* **Age vs. Gender:** A clustered bar chart showing which age groups (Adults, Seniors, Teenagers) buy the most.
+* **Channel Analysis:** A pie chart comparing Amazon, Flipkart, Myntra, Ajio, and others.
 
-What is the return/cancellation rate?
+---
 
-📌 Features of the Dashboard
-✔️ Interactive Slicers
+## 🧪 Data Cleaning Steps
+To ensure data integrity, the following steps were taken:
+1.  **Standardized Gender Column:** Fixed inconsistencies (e.g., converting "W" to "Women" and "M" to "Men").
+2.  **Age Grouping:** Created a new `Age Group` column using the `IF` function to categorize customers into *Teenager, Adult, and Senior*.
+3.  **Date Formatting:** Extracted the `Month` from the order date to enable monthly trend analysis.
+4.  **Quantity Check:** Verified and cleaned the `Qty` column to ensure no zero or negative values influenced the revenue.
 
-Months
+---
 
-Channels
+## 📂 Project Structure
+* `Vrinda_Store_Data.xlsx` - Contains raw data, processed data, and the final dashboard.
+* `README.md` - Project documentation.
 
-Categories
+---
 
-These slicers dynamically update all visuals in the dashboard.
+## 📝 Conclusion
+The analysis suggests that Vrinda Store should target **Women aged 25-45** in **Maharashtra, Karnataka, and Uttar Pradesh** by running targeted ad campaigns on **Amazon** during the **Spring season (March-April)**.
 
-✔️ Visualizations Included
-• Orders vs Sales Trend
+---
 
-Combination chart showing:
-
-Monthly revenue
-
-Number of orders
-
-Helps identify peak and low-performing months.
-
-• Sales: Men vs Women
-
-Pie chart showing gender-wise sales contribution:
-
-Women: 64%
-
-Men: 36%
-
-• Order Status Breakdown
-
-Pie chart showing:
-
-Delivered
-
-Cancelled
-
-Returned
-
-Refunded
-
-• Top 5 States by Sales
-
-Horizontal bar chart ranking the top states with the highest revenue.
-
-• Orders by Age vs Gender
-
-Clustered bar chart showing order distribution among:
-
-Adults
-
-Seniors
-
-Teenagers
-
-Compared between Men and Women.
-
-• Orders by Channel
-
-Pie chart showing contributions from:
-
-Amazon
-
-Flipkart
-
-Myntra
-
-Ajio
-
-Meesho
-
-Others
-
-🧮 Tools & Techniques Used
-Excel Tools:
-
-Pivot Tables
-
-Pivot Charts
-
-Slicers
-
-Data Cleaning
-
-Conditional Formatting
-
-Chart Formatting
-
-Dashboard Design
-
-Analysis Techniques:
-
-Trend Analysis
-
-Demographic Segmentation
-
-Channel Performance Analysis
-
-State-wise Revenue Ranking
-
-KPI Tracking
-
-🚀 Key Insights
-
-Women contribute the highest sales share (64%).
-
-Amazon is the top-performing sales channel.
-
-Maharashtra leads as the highest revenue state.
-
-Delivered orders make up 92% of total orders.
-
-Sales peak around March–April, indicating seasonal demand.
+### 🤝 Connect with me
+**Suyog Bundiwale** 
